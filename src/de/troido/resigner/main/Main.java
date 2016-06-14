@@ -5,6 +5,10 @@ import de.troido.resigner.ui.MainWindow;
 
 public class Main {
     public static void main(String[] args) throws Exception {
+        runArgs(args);
+    }
+
+    private static void runArgs(String[] args) throws Exception {
         if (args.length == 0)
             new MainWindow();
         if (args.length == 2) {
