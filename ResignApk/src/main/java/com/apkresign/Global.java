@@ -1,10 +1,10 @@
-package com.apkfuns.apkresign;
+package com.apkresign;
 
 /**
  * Created by pengwei on 16/4/15.
  */
 public interface Global {
-    String VERSION = "1.2.0";
+    String VERSION = "1.2.2";
 
     String ABOUT_UEL = "https://github.com/pengwei1024/apkReSign";
 

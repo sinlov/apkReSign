@@ -1,4 +1,4 @@
-package com.apkfuns.apkresign;
+package com.apkresign;
 
 /**
  * Created by pengwei on 16/4/15.

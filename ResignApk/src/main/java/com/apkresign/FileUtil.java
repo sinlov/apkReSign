@@ -1,4 +1,4 @@
-package com.apkfuns.apkresign;
+package com.apkresign;
 
 import java.io.*;
 import java.nio.channels.FileChannel;

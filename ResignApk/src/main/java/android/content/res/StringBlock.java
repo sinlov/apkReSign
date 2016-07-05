@@ -22,7 +22,6 @@ import java.io.IOException;
  * 
  * Block of strings, used in binary xml and arsc.
  * 
- * TODO:
  * - implement get()
  *
  */

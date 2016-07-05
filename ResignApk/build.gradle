@@ -17,22 +17,38 @@ buildscript {
     repositories {
         jcenter()
     }
-    tasks.withType(JavaCompile) {
-        options.encoding = "UTF-8"
-    }
     dependencies {
         classpath 'eu.appsatori:gradle-fatjar-plugin:0.3'
     }
 }
+apply plugin: 'maven'
+apply plugin: 'eu.appsatori.fatjar'
 
-defaultTasks 'build', 'fatJar', 'proguard'
+def mainClassName = "de.troido.resigner.main.Main"
+def apkReSign_version = '1.2.2'
 
-allprojects {
-    apply plugin: 'java'
-    sourceCompatibility = 1.7
-    targetCompatibility = 1.7
+// Match existing source structure
+//sourceSets {
+//    main {
+//        java.srcDirs = ['src']
+//        resources.srcDirs = ['resources']
+//        res.resources = ['res']
+//        assets.srcDirs = ['assets']
+//    }
+//}
+
+gradle.taskGraph.whenReady {
+    fatJar {
+        manifest {
+            attributes("Main-Class": mainClassName)
+        }
+    }
 }
 
-task clean(type: Delete) {
-    delete rootProject.buildDir
+uploadArchives {
+    repositories {
+        flatDir {
+            dirs 'build/repos'
+        }
+    }
 }

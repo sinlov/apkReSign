@@ -18,7 +18,7 @@ package android.content.res;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.Reader;
-import org.xmlpull.v1.XmlPullParserException;
+import org.xmlpull.v1.v1.XmlPullParserException;
 import android.util.TypedValue;
 
 /**
@@ -32,7 +32,6 @@ import android.util.TypedValue;
  * (2) Closed state, which parser obtains after open(), close(), or failed
  * call to next(). In this state methods return invalid values or throw exceptions.
  * 
- * TODO:
  * 	* check all methods in closed state
  *
  */

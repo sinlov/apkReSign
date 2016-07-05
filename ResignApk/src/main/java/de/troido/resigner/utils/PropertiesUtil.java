@@ -1,6 +1,6 @@
 package de.troido.resigner.utils;
 
-import com.apkfuns.apkresign.Global;
+import com.apkresign.Global;
 
 import java.io.*;
 import java.util.Properties;

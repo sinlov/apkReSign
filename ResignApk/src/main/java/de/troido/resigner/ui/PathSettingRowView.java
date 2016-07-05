@@ -1,6 +1,6 @@
 package de.troido.resigner.ui;
 
-import com.apkfuns.apkresign.TextUtils;
+import com.apkresign.TextUtils;
 
 import javax.swing.*;
 import java.awt.*;
