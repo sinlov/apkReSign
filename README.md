@@ -36,6 +36,8 @@ export PATH=${PATH}:${ANDROID_DECODE}
 source ~/.bash_profile
 ```
 
+> Ubuntu 系统类似配置,这里就不额外说明了
+
 ### win下使用
 
 - 拷贝脚本[apkResign.bat](shell/1.2.2/apkResign.bat)
