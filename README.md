@@ -13,7 +13,7 @@ fork后
 - 重新使用 jdk 1.7编译,原先编译环境是1.8,会产生兼容问题
 - 项目结构重做,使用gradle构建
 
-您可以直接使用使用最新包 [ResignAPK-release-1.2.2.jar](jar/ResignAPK-release-1.2.2.jar)
+您可以直接使用使用最新包 [ResignAPK-release-1.2.2.jar](https://github.com/sinlov/apkReSign/raw/master/jar/ResignAPK-release-1.2.2.jar)
 
 ## 使用方法
 
@@ -21,10 +21,10 @@ fork后
 
 ### Mac下使用 
 
-拷贝脚本[apkResign](shell/1.2.2/apkResign)和对应包[ResignAPK-release-1.2.2.jar](jar/ResignAPK-release-1.2.2.jar)
-到目录 `~/opt/apkDecode`
-
-配置环境变量
+- 拷贝脚本[apkResign](shell/1.2.2/apkResign)
+- 拷贝对应包[ResignAPK-release-1.2.2.jar](https://github.com/sinlov/apkReSign/raw/master/jar/ResignAPK-release-1.2.2.jar)
+- 到目录 `~/opt/apkDecode`
+- 配置环境变量
 
 ```sh
 vi ~/.bash_profile
@@ -38,8 +38,10 @@ source ~/.bash_profile
 
 ### win下使用
 
-拷贝脚本[apkResign](shell/1.2.2/apkResign.bat)和对应包[ResignAPK-release-1.2.2.jar](jar/ResignAPK-release-1.2.2.jar)
-到目录 `D:\opt\apkDecode`
+- 拷贝脚本[apkResign.bat](shell/1.2.2/apkResign.bat)
+- 拷贝对应包[ResignAPK-release-1.2.2.jar](https://github.com/sinlov/apkReSign/raw/master/jar/ResignAPK-release-1.2.2.jar)
+- 到目录 `D:\opt\apkDecode`
+- 配置环境变量
 
 在系统环境变量里添加一条
 
