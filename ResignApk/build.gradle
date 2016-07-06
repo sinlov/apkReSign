@@ -27,6 +27,8 @@ apply plugin: 'eu.appsatori.fatjar'
 def mainClassName = "de.troido.resigner.main.Main"
 def apkReSign_version = '1.2.2'
 
+defaultTasks 'build', 'clean', 'fatjar', 'runOutLibs'
+
 // Match existing source structure
 //sourceSets {
 //    main {
@@ -43,6 +45,13 @@ gradle.taskGraph.whenReady {
             attributes("Main-Class": mainClassName)
         }
     }
+}
+
+task runOutLibs(type: Copy, dependsOn: fatJar) {
+    from('build/libs/')
+    into('../build/outLibs')
+    include("${project.name}.jar")
+    rename("${project.name}.jar", "${project.name}-release-" + apkReSign_version + ".jar")
 }
 
 uploadArchives {

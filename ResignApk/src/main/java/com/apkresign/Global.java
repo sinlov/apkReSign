@@ -6,7 +6,7 @@ package com.apkresign;
 public interface Global {
     String VERSION = "1.2.2";
 
-    String ABOUT_UEL = "https://github.com/pengwei1024/apkReSign";
+    String ABOUT_UEL = "https://github.com/sinlov/apkReSign";
 
     String LOCAL_HOST = System.getProperty("user.home") + "/apkResign";
 
