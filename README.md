@@ -90,11 +90,9 @@ APK_RESIGN 内容为 D:\opt\apkDecode
 
 ## 用法
 
-download [apkReSign.jar](jar/)
-
 #### 用法1
 
-双击apkReSign.jar运行
+双击apkReSign.jar运行 Mac Ubuntu 可以
 
 #### 用法2
 
