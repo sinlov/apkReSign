@@ -104,10 +104,18 @@ java -jar apkReSign.jar的路径
 
 ### 导入robotium
 
-#### 下载Jar包
+### 下载Jar包
 下载[robotium-solo-5.4.1.jar](http://central.maven.org/maven2/com/jayway/android/robotium/robotium-solo/5.4.1/robotium-solo-5.4.1.jar)
 
-#### 利用maven
+### Android Studio 请使用
+
+```gradle
+dependencies {
+    androidTestCompile 'com.jayway.android.robotium:robotium-solo:5.4.1'
+}
+```
+
+### 利用maven
 ```xml
 <dependencies>
    <dependency>
