@@ -13,7 +13,7 @@ fork后
 - 重新使用 jdk 1.7编译,原先编译环境是1.8,会产生兼容问题
 - 项目结构重做,使用gradle构建
 
-您可以直接使用使用最新包 [ResignAPK-release-1.2.2.jar](https://github.com/sinlov/apkReSign/raw/master/jar/ResignAPK-release-1.2.3.jar)
+您可以直接使用使用最新包 [ResignAPK-release-1.2.3.jar](https://github.com/sinlov/apkReSign/raw/master/jar/ResignAPK-release-1.2.3.jar)
 
 ## 使用方法
 
