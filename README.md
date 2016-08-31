@@ -127,6 +127,10 @@ dependencies {
 
 ```
 
+# JarKeyTools
+
+In develop do not use!
+
 ## 关于
 
 * Blog: [apkfuns.com](http://apkfuns.com?from=github)
@@ -136,6 +140,7 @@ dependencies {
 
 感谢 [pengwei1024/apkReSign](https://github.com/pengwei1024/apkReSign)
 感谢 [troido/resign](https://github.com/troido/resign)
+
 
 ### License
 
